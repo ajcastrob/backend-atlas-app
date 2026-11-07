@@ -36,6 +36,7 @@ BASE_APPS = [
 
 LOCAL_APPS = [
     "apps.users",
+    "apps.countries",
 ]
 
 THIRD_APPS = [
