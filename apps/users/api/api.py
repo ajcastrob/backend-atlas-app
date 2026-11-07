@@ -22,7 +22,7 @@ class UserViewSet(viewsets.ModelViewSet):
         if self.queryset == None:
             return self.model.objects.filter(
                 is_active=True,
-            ).values("id", "username", "email", "name")
+            )
         return self.queryset
 
     # GET
