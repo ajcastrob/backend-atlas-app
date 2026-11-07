@@ -1,0 +1,123 @@
+[
+  { "name": "Canadá", "capital": "Ottawa", "region": "América del Norte", "iso_code": "CA" },
+  {
+    "name": "Estados Unidos",
+    "capital": "Washington D. C.",
+    "region": "América del Norte",
+    "iso_code": "US"
+  },
+  {
+    "name": "México",
+    "capital": "Ciudad de México",
+    "region": "América del Norte",
+    "iso_code": "MX"
+  },
+
+  {
+    "name": "Guatemala",
+    "capital": "Ciudad de Guatemala",
+    "region": "América Central y Caribe",
+    "iso_code": "GT"
+  },
+  {
+    "name": "Belice",
+    "capital": "Belmopán",
+    "region": "América Central y Caribe",
+    "iso_code": "BZ"
+  },
+  {
+    "name": "Honduras",
+    "capital": "Tegucigalpa",
+    "region": "América Central y Caribe",
+    "iso_code": "HN"
+  },
+  {
+    "name": "El Salvador",
+    "capital": "San Salvador",
+    "region": "América Central y Caribe",
+    "iso_code": "SV"
+  },
+  {
+    "name": "Nicaragua",
+    "capital": "Managua",
+    "region": "América Central y Caribe",
+    "iso_code": "NI"
+  },
+  {
+    "name": "Costa Rica",
+    "capital": "San José",
+    "region": "América Central y Caribe",
+    "iso_code": "CR"
+  },
+  {
+    "name": "Panamá",
+    "capital": "Ciudad de Panamá",
+    "region": "América Central y Caribe",
+    "iso_code": "PA"
+  },
+  {
+    "name": "Cuba",
+    "capital": "La Habana",
+    "region": "América Central y Caribe",
+    "iso_code": "CU"
+  },
+  {
+    "name": "República Dominicana",
+    "capital": "Santo Domingo",
+    "region": "América Central y Caribe",
+    "iso_code": "DO"
+  },
+  { "name": "Colombia", "capital": "Bogotá", "region": "América del Sur", "iso_code": "CO" },
+  { "name": "Venezuela", "capital": "Caracas", "region": "América del Sur", "iso_code": "VE" },
+  { "name": "Ecuador", "capital": "Quito", "region": "América del Sur", "iso_code": "EC" },
+  { "name": "Perú", "capital": "Lima", "region": "América del Sur", "iso_code": "PE" },
+  { "name": "Bolivia", "capital": "Sucre", "region": "América del Sur", "iso_code": "BO" },
+  { "name": "Brasil", "capital": "Brasilia", "region": "América del Sur", "iso_code": "BR" },
+  { "name": "Paraguay", "capital": "Asunción", "region": "América del Sur", "iso_code": "PY" },
+  { "name": "Uruguay", "capital": "Montevideo", "region": "América del Sur", "iso_code": "UY" },
+  { "name": "Argentina", "capital": "Buenos Aires", "region": "América del Sur", "iso_code": "AR" },
+  { "name": "Chile", "capital": "Santiago", "region": "América del Sur", "iso_code": "CL" },
+
+  { "name": "España", "capital": "Madrid", "region": "Europa", "iso_code": "ES" },
+  { "name": "Portugal", "capital": "Lisboa", "region": "Europa", "iso_code": "PT" },
+  { "name": "Francia", "capital": "París", "region": "Europa", "iso_code": "FR" },
+  { "name": "Alemania", "capital": "Berlín", "region": "Europa", "iso_code": "DE" },
+  { "name": "Italia", "capital": "Roma", "region": "Europa", "iso_code": "IT" },
+  { "name": "Reino Unido", "capital": "Londres", "region": "Europa", "iso_code": "GB" },
+  { "name": "Irlanda", "capital": "Dublín", "region": "Europa", "iso_code": "IE" },
+  { "name": "Países Bajos", "capital": "Ámsterdam", "region": "Europa", "iso_code": "NL" },
+  { "name": "Bélgica", "capital": "Bruselas", "region": "Europa", "iso_code": "BE" },
+  { "name": "Suiza", "capital": "Berna", "region": "Europa", "iso_code": "CH" },
+  { "name": "Austria", "capital": "Viena", "region": "Europa", "iso_code": "AT" },
+  { "name": "Suecia", "capital": "Estocolmo", "region": "Europa", "iso_code": "SE" },
+  { "name": "Noruega", "capital": "Oslo", "region": "Europa", "iso_code": "NO" },
+  { "name": "Polonia", "capital": "Varsovia", "region": "Europa", "iso_code": "PL" },
+  { "name": "Grecia", "capital": "Atenas", "region": "Europa", "iso_code": "GR" },
+
+  { "name": "Japón", "capital": "Tokio", "region": "Asia", "iso_code": "JP" },
+  { "name": "China", "capital": "Pekín", "region": "Asia", "iso_code": "CN" },
+  { "name": "Corea del Sur", "capital": "Seúl", "region": "Asia", "iso_code": "KR" },
+  { "name": "India", "capital": "Nueva Delhi", "region": "Asia", "iso_code": "IN" },
+  { "name": "Indonesia", "capital": "Yakarta", "region": "Asia", "iso_code": "ID" },
+  { "name": "Vietnam", "capital": "Hanói", "region": "Asia", "iso_code": "VN" },
+  { "name": "Tailandia", "capital": "Bangkok", "region": "Asia", "iso_code": "TH" },
+  { "name": "Filipinas", "capital": "Manila", "region": "Asia", "iso_code": "PH" },
+  { "name": "Malasia", "capital": "Kuala Lumpur", "region": "Asia", "iso_code": "MY" },
+  { "name": "Turquía", "capital": "Ankara", "region": "Asia", "iso_code": "TR" },
+  { "name": "Irán", "capital": "Teherán", "region": "Asia", "iso_code": "IR" },
+  { "name": "Arabia Saudita", "capital": "Riad", "region": "Asia", "iso_code": "SA" },
+
+  { "name": "Egipto", "capital": "El Cairo", "region": "África", "iso_code": "EG" },
+  { "name": "Marruecos", "capital": "Rabat", "region": "África", "iso_code": "MA" },
+  { "name": "Argelia", "capital": "Argel", "region": "África", "iso_code": "DZ" },
+  { "name": "Nigeria", "capital": "Abuya", "region": "África", "iso_code": "NG" },
+  { "name": "Kenia", "capital": "Nairobi", "region": "África", "iso_code": "KE" },
+  { "name": "Etiopía", "capital": "Adís Abeba", "region": "África", "iso_code": "ET" },
+  { "name": "Sudáfrica", "capital": "Pretoria", "region": "África", "iso_code": "ZA" },
+  { "name": "Senegal", "capital": "Dakar", "region": "África", "iso_code": "SN" },
+
+  { "name": "Australia", "capital": "Canberra", "region": "Oceanía", "iso_code": "AU" },
+  { "name": "Nueva Zelanda", "capital": "Wellington", "region": "Oceanía", "iso_code": "NZ" },
+  { "name": "Fiyi", "capital": "Suva", "region": "Oceanía", "iso_code": "FJ" },
+  { "name": "Papúa Nueva Guinea", "capital": "Port Moresby", "region": "Oceanía", "iso_code": "PG" }
+]
