@@ -5,7 +5,6 @@ from apps.base.models import BaseModel
 class Country(BaseModel):
     name = models.CharField(max_length=100, unique=True)
     capital = models.CharField(max_length=100)
-    flag_url = models.URLField()
     region = models.CharField(max_length=50, blank=True)
     iso_code = models.CharField(max_length=2, unique=True)
 
