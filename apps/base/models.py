@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 from simple_history.models import HistoricalRecords
 
 
@@ -12,8 +13,10 @@ class BaseModel(models.Model):
     modified_date = models.DateField(
         "Fecha de modificación", auto_now=True, auto_now_add=False
     )
-    deleted_date = models.DateField(
-        "Fecha de eliminación", auto_now=True, auto_now_add=False
+    deleted_date = models.DateTimeField(
+        "Fecha de eliminación",
+        null=True,
+        blank=True,
     )
     historical = HistoricalRecords(user_model="users.User", inherit=True)
 
@@ -21,3 +24,8 @@ class BaseModel(models.Model):
         abstract = True
         verbose_name = "BaseModel"
         verbose_name_plural = "BaseModel"
+
+    def soft_delete(self):
+        self.state = False
+        self.deleted_date = timezone.now()
+        self.save(update_fields=["state", "deleted_date"])
