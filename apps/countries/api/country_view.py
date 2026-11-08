@@ -1,6 +1,7 @@
 from rest_framework import status
 from rest_framework.views import Response
 from rest_framework import viewsets
+from rest_framework.permissions import IsAuthenticated
 from apps.countries.api.country_serialazer import CountrySerializer
 from apps.countries.models import Country
 
@@ -8,6 +9,7 @@ from apps.countries.models import Country
 class CountryViewSet(viewsets.ModelViewSet):
     serializer_class = CountrySerializer
     queryset = Country.objects.filter(state=True)
+    permission_classes = [IsAuthenticated]
 
     def get_queryset(self, pk=None):
         if pk is None:
